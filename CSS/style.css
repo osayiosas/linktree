@@ -1,0 +1,89 @@
+/* css */
+
+/* Box Model */
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/*layout*/
+.linktree {
+    font-family: 'Open', sans-serif;
+    letter-spacing: 0.075em;
+    text-align: center;
+}
+
+
+/* profile image */
+
+.profile-image{
+    
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 40px auto 30px;
+}
+
+.profile-image img {
+    display: inline;
+    margin: 0 auto;
+    height: 7rem;
+    width: 5.7rem;
+}
+
+h2,h3, h3 a {
+    color: #bbb;
+    font-size: 1rem;
+    font-weight: 200;
+    border-color: transparent;
+    line-height: 1.25;
+    max-width: 100%;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+h2 {
+    color: #000;
+    font-size: 1.25rem;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+
+h3 {
+    width: 100%;
+    max-width: 414px;
+    margin: 0 auto;
+}
+
+.links {
+    width: 100%;
+    max-width: 414px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.links .link {
+    display: block;
+    width: 100%;
+    margin: 0 auto 10px;
+    color:  #fff;
+    border-radius:  20px ;
+    background-color: #bc9047;
+    text-align: center;
+    text-decoration: non;
+    padding: 15px 0;
+}
+
+@media only screen and (max-width:549px) {
+    .linktree{
+        width: 88vw;
+    }
+}
+
